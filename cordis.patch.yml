@@ -1,0 +1,6 @@
+# dsh-bg bundle patch: inserts the background-switcher plugin row.
+# The row's client half (exports["./client"]) is scanned by client-modules
+# into the browser boot graph; the host half is a no-op placeholder.
+- insert:
+    - id: dsh-bg
+      name: dsh-bg
