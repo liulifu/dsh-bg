@@ -14,6 +14,20 @@
     "cordis.patch.yml"
   ],
   "license": "MIT",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "background",
+    "wallpaper",
+    "theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liulifu/dsh-bg.git"
+  },
+  "homepage": "https://github.com/liulifu/dsh-bg",
+  "author": "liulifu (https://github.com/liulifu)",
   "dsh": {
     "client": {
       "platform": "web",
