@@ -73,7 +73,7 @@ dsh-bg/
 
 ```bash
 # 从项目目录安装到 web profile（会加入 dsh.profile.bundles 层）
-dsh plugin --profile web add file:D:/deepseekharness/dsh-bg
+dsh plugin --profile web add file:./dsh-bg   # 在仓库父目录执行，或填本机实际路径
 ```
 
 重启后修改 `lib/client.js` 会通过 client-hmr（500ms 轮询）自动热更新，无需再重启。

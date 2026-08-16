@@ -4,7 +4,7 @@
 const fs = require("fs");
 const vm = require("vm");
 
-const src = fs.readFileSync("D:/deepseekharness/dsh-bg/lib/client.js", "utf8");
+const src = fs.readFileSync(require("path").join(__dirname, "lib", "client.js"), "utf8");
 
 // --- stubbed browser context ---
 let styleEl = null;
